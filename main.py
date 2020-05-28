@@ -12,7 +12,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("-v", "--video", help="path to the video file", default=path)
     ap.add_argument("-a", "--min-area", type=int, default=500, help="minimum area size")
-    ap.add_argument('--use-zmq', dest='use_zmq', default=True, action='store_true', help="Use standard multiprocessing queues "
+    ap.add_argument('--no-zmq', dest='use_zmq', default=True, action='store_false', help="Use standard multiprocessing queues "
                                                                          "instead of zmq")
     ap.add_argument('--max-speed', dest='max_speed', action='store_true', help="Process video as fast as possible "
                                                                              "regardless to FPS")

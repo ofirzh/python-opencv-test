@@ -1,4 +1,3 @@
-# https://pyzmq.readthedocs.io/en/latest/serialization.html#using-your-own-serialization
 import zmq
 import numpy
 
