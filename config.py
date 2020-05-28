@@ -1,0 +1,1 @@
+ipc_queue_max_size = 200
